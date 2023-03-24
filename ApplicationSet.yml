@@ -17,7 +17,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/piomin/openshift-cluster-config.git
+        repoURL: https://github.com/RachnaDodia/openshift-cluster-config.git
         targetRevision: master
         path: apps/simple
       destination:
