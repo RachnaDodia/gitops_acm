@@ -25,6 +25,6 @@ spec:
         server: "{{server}}" # (3)
       syncPolicy:
         automated:
-          selfHeal: true
+          selfHeal: false
         syncOptions:
           - CreateNamespace=true # (4)
