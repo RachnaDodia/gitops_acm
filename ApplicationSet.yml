@@ -21,7 +21,7 @@ spec:
         targetRevision: master
         path: apps/simple
       destination:
-        namespace: demo
+        namespace: demo_icici
         server: "{{server}}" # (3)
       syncPolicy:
         automated:
