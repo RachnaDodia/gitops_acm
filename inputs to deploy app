@@ -1,15 +1,15 @@
-app-name-set.   sample-spring-boot
-app-server.    openshift-gitops
-reque time 180
+ApplicationSet name:  sample-spring-boot
+Argo server:    openshift-gitops
+Requeue time: 180
 
 ==
- repoURL: https://github.com/RachnaDodia/openshift-cluster-config.git
+ Git repoURL: https://github.com/RachnaDodia/openshift-cluster-config.git
  revision master
- path. app/simple
- destination ns-: demo
+ path: app/simple
+Destination Remote namespace *-: demo
  
  ==
- sync policy- 
+sync policy- 
 Automatically create namespace if it does not exist
 
 =
