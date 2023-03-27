@@ -6,7 +6,7 @@ reque time 180
  repoURL: https://github.com/RachnaDodia/openshift-cluster-config.git
  revision master
  path. app/simple
- destination ns- demo
+ destination ns-: demo
  
  ==
  sync policy- 
