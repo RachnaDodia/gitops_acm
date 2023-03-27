@@ -1,0 +1,17 @@
+app-name-set.   sample-spring-boot
+app-server.    openshift-gitops
+reque time 180
+
+==
+ repoURL: https://github.com/RachnaDodia/openshift-cluster-config.git
+ revision master
+ path. app/simple
+ destination ns- demo
+ 
+ ==
+ sync policy- 
+Automatically create namespace if it does not exist
+
+=
+Existing placement= demo-gitops-placement
+
